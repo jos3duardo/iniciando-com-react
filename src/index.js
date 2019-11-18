@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import HelloWord from "./HelloWord";
+import PropsValidation from "./PropsValidation";
 
 ReactDOM.render(
-    <HelloWord />,
+    <PropsValidation name="Jose" age="29" height="1.75"/>,
+    //<HelloWord txt = '/Hello Word Reac' />,
     document.getElementById('root')
 )
 // ReactDOM.render(<App />, document.getElementById('root'));

@@ -5,9 +5,11 @@ class HelloWord extends Component {
         super(props)
 
         this.state = {
-            name: 'José Eduardo'
+            name: 'José Eduardo',
+            txt: this.props.txt
         }
     }
+
     render() {
         const result = 4
         const style = {
@@ -19,7 +21,7 @@ class HelloWord extends Component {
             <div className="my-class-reom-react">
                 {/* this is my first component */}
                 <StateInput />
-                <h1 style={style}>Hello Word React</h1>
+                <h1 style={style}>{this.props.txt}</h1>
                 <span>{this.state.name}</span>
             </div>
         )
