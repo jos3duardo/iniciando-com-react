@@ -5,9 +5,10 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import HelloWord from "./HelloWord";
 import PropsValidation from "./PropsValidation";
-
+import Events from './Events';
 ReactDOM.render(
-    <PropsValidation name="Jose" age="29" height="1.75"/>,
+    <Events />,
+    // <PropsValidation name="Jose" age="29" height="1.75"/>,
     //<HelloWord txt = '/Hello Word Reac' />,
     document.getElementById('root')
 )

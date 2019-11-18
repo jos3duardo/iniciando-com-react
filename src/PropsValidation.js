@@ -30,6 +30,6 @@ PropsValidation.propTypes = {
 PropsValidation.defaultProps = {
     name: 'José Eduardo',
     age: 155,
-    height: 1,75
+    height: 1.75
 }
 export default PropsValidation
