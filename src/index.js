@@ -6,8 +6,10 @@ import * as serviceWorker from './serviceWorker';
 import HelloWord from "./HelloWord";
 import PropsValidation from "./PropsValidation";
 import Events from './Events';
+import Translate from './Translate';
 ReactDOM.render(
-    <Events />,
+    <Translate />,
+    // <Events />,
     // <PropsValidation name="Jose" age="29" height="1.75"/>,
     //<HelloWord txt = '/Hello Word Reac' />,
     document.getElementById('root')
