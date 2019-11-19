@@ -1,5 +1,11 @@
+## Descrição
+Somente uma breve introdução aos estudos do React. Ao final do projeto é construido uma listagem e um botão para remover os itens da lista 
+
 ## Setup
 Este projeto foi criado com o [Create React App](https://github.com/facebook/create-react-app).  
+
+
+
 
 **adcionando componente de forma global**
 ```
@@ -16,7 +22,9 @@ create-react-app app
 npm start
 ```
 
-preview 
-![Banana](readme/Captura%20de%20tela%20de%202019-11-18%2000-41-32.png)
+preview   
+![index](readme/index.png)
 
 
+listagem com a opção de delete  
+![index](readme/listagem.png)
